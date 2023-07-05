@@ -27,7 +27,7 @@ require (
 	github.com/gogo/googleapis v1.4.1
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.2
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.5.9
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashicorp/go-immutable-radix v1.3.1
@@ -70,19 +70,19 @@ require (
 	go.opentelemetry.io/otel/trace v1.2.0
 	go.opentelemetry.io/proto/otlp v0.9.0
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2
-	golang.org/x/net v0.0.0-20211123203042-d83791d6bcd9
+	golang.org/x/net v0.5.0
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20211123173158-ef496fb156ab
+	golang.org/x/sys v0.4.0
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
-	google.golang.org/genproto v0.0.0-20211118181313-81c1377c94b1
-	google.golang.org/grpc v1.42.0
+	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f
+	google.golang.org/grpc v1.53.0
 )
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
-	github.com/cespare/xxhash/v2 v2.1.1 // indirect
+	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/containerd/cgroups v1.0.2 // indirect
 	github.com/containerd/fifo v1.0.0 // indirect
 	github.com/containerd/ttrpc v1.1.0 // indirect
@@ -113,8 +113,8 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	go.opentelemetry.io/otel/internal/metric v0.24.0 // indirect
 	go.opentelemetry.io/otel/metric v0.24.0 // indirect
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/protobuf v1.27.1 // indirect
+	golang.org/x/text v0.6.0 // indirect
+	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 	gotest.tools/v3 v3.0.3 // indirect
 )
